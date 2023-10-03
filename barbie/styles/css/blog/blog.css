@@ -1,0 +1,62 @@
+/*Iniciio de main*/
+
+main {
+    width:                  100%;
+    display:                flex;
+    justify-content:        space-between;
+}
+
+h1{
+    display:                flex;
+    font-family:            'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index:                -2;
+    color:                   var(--button);
+    font-size:               200px;
+    justify-content:         center;
+    align-items:             center;
+    text-align:              center;
+}
+
+
+
+
+.item__1{
+    position:               static;
+    top:                    50%;
+    z-index:               -1;
+}
+/*Fin de main*/
+
+
+
+.content__container{
+    display:                    flex;
+    flex-wrap:                  wrap;
+}
+
+h2 {
+    justify-content:        center;
+    display:                inline;
+}
+
+p{
+    
+}
+
+
+.container__barbie{
+    display:                    flex;
+    margin:                     0;
+    width:                      100%;
+    justify-content:            space-around;
+    flex-direction:             row; 
+    align-items:                center; 
+}
+
+
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column; /* Cambia a una disposición vertical en pantallas pequeñas */
+        align-items: center; /* Centra los elementos verticalmente */
+    }

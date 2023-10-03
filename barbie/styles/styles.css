@@ -1,0 +1,25 @@
+/* Variables */
+@import url("/styles/css/variables/v-typography.css");
+@import url("/styles/css/variables/v-spacer.css");
+@import url("/styles/css/variables/v-grid.css");
+@import url("/styles/css/variables/v-zindex.css");
+@import url("/styles/css/variables/v-colors.css");
+
+/* Base */
+@import url("/styles/css/base/reset.css");
+@import url("/styles/css/base/typography.css");
+@import url("/styles/css/base/grid.css");
+@import url("/styles/css/base/grid-cols.css");
+
+/* Libraries */
+@import url("/styles/css/libraries/animate.css");
+
+/* Layout */
+@import url("/styles/css/layout/header.css");
+@import url("/styles/css/layout/content.css");
+@import url("/styles/css/layout/nav.css");
+@import url("/styles/css/layout/footer.css");
+
+/* Blocks */
+@import url("/styles/css/blocks/main-home.css");
+

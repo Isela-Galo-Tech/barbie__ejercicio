@@ -1,0 +1,82 @@
+.perfumes__products{
+    display:                        grid;
+    align-content:                  center;    
+    grid-template-columns:          repeat(4, 1fr);
+    grid-template-rows:             auto;
+    place-items:                    center;
+    justify-content:                space-evenly;   
+}
+
+
+@media (min-width: 768px) {
+    .products__container {
+        grid-template-columns: repeat(4, 1fr); /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media (min-width: 1024px) {
+    .products__container {
+        grid-template-columns: repeat(4, 1fr); /* Vuelve a cuatro columnas en pantallas grandes */
+    }
+}
+
+.perfume__1, .perfume__2, .perfume__3, .perfume__4, .perfume__5, .perfume__6, .perfume__7, .perfume__8{
+    display:                flex;
+    justify-content:        center;
+    align-items:            center;
+    flex-direction:         row;
+    width:                  300px;
+    height:                 500px;
+    flex-direction:         row;
+    background:           rgb(248, 247, 247);
+    border-color:           var(--hover-button);
+    border-radius:          10px;
+    padding:                2rem 1rem;
+    margin:                 2em 0 0 0;
+    flex-wrap:              wrap;
+}
+
+@media (max-width: 767px) {
+    .perfume__1, .perfume__2, .perfume__3, .perfume__4, .perfume__5, .perfume__6, .perfume__7, .perfume__8 {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin: 1em 0; /* Agrega espacio entre los elementos */
+    }
+}
+
+/* Estilos para los elementos internos en pantallas medianas y grandes */
+@media (min-width: 768px) {
+    .perfume__1, .perfume__2, .perfume__3, .perfume__4, .perfume__5, .perfume__6, .perfume__7, .perfume__8 {
+        /* Tus estilos originales aquí */
+        margin: 2rem;
+        padding: .5rem .5rem .5rem .5rem .5rem .5rem;
+    }
+}
+
+.shoping__btn-product{
+    margin: 1rem;
+    display:                flex;
+    justify-content:        center;
+    align-items:            center;
+    width:                  149px;
+    height:                 49px;
+    background-color:       var(--button);
+    color:                  var(--text);
+    border:                 none;
+    border-radius:          4px;
+    cursor:                 pointer;
+}
+
+.shoping__btn-product:hover{
+    background:     var(--hover-button);
+    color:          var(--background);
+}
+
+h3 a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--text-3xl);
+    color: var(--hover-button);
+    text-decoration: none;
+    list-style: none;
+    margin-left: 2rem;
+}

@@ -1,0 +1,6 @@
+.footer {
+    background-color: lightgrey;
+    padding-top: var(--spacer-m);
+    padding-bottom: var(--spacer-m);
+  }
+  

@@ -1,0 +1,53 @@
+.barbie__uno{
+    display: flex;
+    padding: 2.5rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display:                    flex;
+    position:                   absolute;
+    top:                        50%;
+    left:                       50%;
+    transform:                  translate(-50%, -50%);
+    font-size:                  200px;
+	letter-spacing:             0.1em;
+    -webkit-text-fill-color:    transparent;
+    -webkit-text-stroke-width:  3px;
+    -webkit-text-stroke-color:  var(--background);
+    text-shadow: 
+						    8px 8px #ff1f8f,
+						    20px 20px var(--background-menu);
+}
+
+@media (max-width: 720px) {
+    h1 {
+        font-size: 120px; /* Cambia el tamaño de fuente para pantallas más pequeñas */
+    }
+}
+
+
+.barbie__btn{
+    position:   absolute;
+    background: var(--button);
+    border:     none;
+    color:      var(--hover-button);
+    width:      150px;
+    height:     52px;
+    display:    flex;
+    justify-content:    center;
+    align-items:        center;
+    border-radius:      5px;
+    cursor:             pointer; 
+       
+}
+
+.barbie__btn:hover{
+    background: var(--hover-button);
+    color:      var(--text);
+}
+
+
+

@@ -1,0 +1,84 @@
+  .header__container{
+    display:            flex;
+    flex-direction:     row;
+    flex-wrap:          wrap;
+    align-items:        center;
+    justify-content:    space-around;
+  }
+
+  .iconos__container{
+    display:            flex;
+    width:              calc(25% - 5px) !important;
+    justify-content:    space-between;
+    height:             20px;
+    margin-left:        1em;
+
+  }
+
+  .mensaje{
+    transition:         2s all linear 1s;
+    cursor: pointer; 
+  }
+  .mensaje:hover{
+    transform: scale(.5);
+  }
+
+
+  .barbie__logo{
+    display:            inline;
+    justify-content:    center;
+    width:              50px;
+    height:             50px;
+    align-items:        center;
+    transition:         2s all linear 1s; 
+    margin-left:        7em;
+  }
+
+  .barbie__logo:hover{
+    transform: scale(.5);
+  }
+
+  
+  /* Estilos para el contenedor de búsqueda */
+.search-container {
+  display:          flex;
+  max-width:        800px;
+  margin:           0 auto;
+  padding:          1.5rem;
+  float:            right;
+}
+
+/* Estilos para el campo de búsqueda */
+#searchInput {
+  display:            flex;
+  justify-content:    space-around;
+  max-width:          400px;
+  max-height:         40px;
+  flex-grow:          1;
+  padding:            1rem;
+  border: none;
+  background: #F6F6F8;
+  border-radius: 50px;
+  font-size: 16px;
+  
+}
+
+/* Estilos para el botón de búsqueda */
+#searchButton {
+  padding:          10px 20px;
+  background-color: var(--button);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  margin: calc(10% - 20px);
+}
+
+#searchButton:hover {
+  background-color: var(--hover-button);
+
+/* Estilos para los resultados de búsqueda */
+#searchResults {
+  margin-top: 2em 0px;
+}

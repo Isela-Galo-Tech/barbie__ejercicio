@@ -1,0 +1,53 @@
+main{
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    padding:            2rem;
+    margin:             0 auto;
+}
+
+.circulos__container{
+    z-index: -1;
+}
+
+.line{
+    margin: 2rem;
+}
+
+.explore__btn{
+    
+    display:            flex;
+    align-items:        center;
+    justify-content:    center;
+    font-family:        Arial, Helvetica, sans-serif;
+    width:              300px;
+    height:             50px;
+    background:         var(--button);
+    border-radius:      5px;
+    border:             none;
+    color:              var(--background);
+    cursor:             pointer;    
+}
+
+.explore__btn:hover{
+    background:         var(--hover-button);
+    color:              var(--text);
+}
+
+main .circle__dos, 
+.circle__uno,
+.circle__tres,
+.circle__cinco,
+.circle__siete{
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
